@@ -1,10 +1,10 @@
 # qplayer
-h5 audio player
+h5 audio player。该播放器特点是简单，只运用了h5的audio功能，无需flash。现在样式是内置好的，之后的版本可能会放到外部去
 # Features
-集成H5 audio的播放器
-拖曳播放
-IOS微信中自动播放
-播放中的图片预设
+	集成H5 audio的播放器
+	拖曳播放
+	IOS微信中自动播放
+	播放中的图片预设
 
 ```javascript
 qPlayer.init($("#player_container"),{
