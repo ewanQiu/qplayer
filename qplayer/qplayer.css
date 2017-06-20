@@ -1,0 +1,235 @@
+@charset "utf-8";
+.qplayer-play-head{
+	position:relative;
+	font-size:0;	
+	}
+.qplayer-less-banner{
+	width:100%;
+	display:block;
+	}
+	
+.qplayer-less-banner img{
+	width:100%;
+	height:100%;
+	}
+.qplayer-less-play{
+	width:100%;
+	padding:.5rem 0;
+	padding:10px 0\9;
+	background-color:#000;
+	text-align:center;
+	height:1.5rem;
+	height:30px\9; 
+    background-color:#000\9;
+	opacity:.6\9;
+    position:static\9; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1;		
+	}
+
+.form-group .qplayer-less-play{
+	width:100%;
+	padding: 0;
+	padding:10px 0\9;
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align:center;
+	height:1.5rem;
+	height:30px\9;
+	background-color:#000\9;
+	opacity:.6\9;
+	position:static\9; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+	*zoom:1;
+}
+	
+.qplayer-less-play-head{
+	width:120px\9;
+	width:6rem;
+	margin:0 auto; 
+	overflow:hidden;
+	}
+
+.qplayer-play-ico{
+	height:1.5rem;
+	width:1.5rem;
+	height:30px\9;
+	width:30px\9;	
+	display:block;	
+	}	
+		
+.qplayer-less-play .qplayer-play-ico{
+	background:url(images/play-2.png) no-repeat;
+	background-size:100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/play-2.png', sizingMethod='scale')\9;
+	background-image:none\9; 
+	background-size:30px\9;
+	margin-right:.5rem;
+	margin-right:10px\9;
+	float:left;
+	margin-top:5px;
+	}	
+		
+.qplayer-less-play .qplayer-play-time{
+	color:#fff;
+	font-size:.7rem;
+	width:3.5rem;
+	font-size:14px\9;
+	width:70px\9;	
+	display:inline-block;
+	float:left;
+	}		
+.qplayer-less-play .qplayer-play-time p{
+	margin:0;
+	}
+	
+.qplayer-play-time .qplayer-time{
+	font-size:.8rem;
+	font-size:16px\9;
+	}
+.qplayer-less-pause-head{
+	display:block;
+	width:100%;
+	font-size:.8rem;
+	font-size:16px\9;
+	color:#fff;		
+	}
+.qplayer-less-pause-head .qplayer-btn{
+	text-align:left;
+	float:left;
+	}
+.qplayer-btn .qplayer-play-ico{
+	background:url(images/play-3.png) no-repeat;
+	background-size:100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/play-3.png', sizingMethod='scale')\9;
+	background-image:none\9; 
+	background-size:30px\9;	
+	margin-left:.5rem;
+	margin-left:10px\9;
+	margin-top:.1rem;
+	margin-top:2px\9;
+	float:left;
+	}
+.qplayer-btn .qplayer-pause-ico{
+	background:url(images/play-4.png) no-repeat;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/play-4.png', sizingMethod='scale')\9;
+	background-size:100%;
+	}
+
+.qplayer-btn .qplayer-play-text{
+	line-height:1.7rem;
+	line-height:34px\9;
+	}
+	
+.qplayer-progress-bar{
+	margin:0 5rem 0 6em;
+    margin:0 100px 0 120px\9;	
+	line-height:1.5rem;
+	line-height:30px\9;	
+	}	
+.qplayer-progress-bar .qplayer-bg{
+	height:.25rem;
+	height:5px\9;
+	background-color:#cfd0d3;
+	width:100%;
+	display:inline-block;
+	float:left;
+	}
+	
+.qplayer-progress-bar .qplayer-bg-blue{
+	background-color:#86b3f8;
+	position:absolute;
+	left:0;
+	top:0;
+	width:80%;
+	}
+
+.qplayer-progress{
+	width:100%; 
+	position:relative; 
+	height:.25rem; 
+	height:5px\9; 
+	float:left;
+	margin-top:.7rem;
+	margin-top:14px\9;
+	}
+			
+.qplayer-less-pause-head .qplayer-time{
+	margin-right:.5rem;
+	margin-right:10px\9;
+	line-height:1.7rem;
+	line-height:34px\9;
+	text-align:right;
+	float:right;
+	}		
+
+.on-off-btn{
+	background:url(images/on-off-btn.png) no-repeat;
+	width:1.2rem;
+	height:1.2rem;
+	width:24px\9;
+	height:24px\9;	
+	background-size:1.2rem;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/on-off-btn.png', sizingMethod='scale')\9;
+	background-image:none\9; 
+	background-size:24px\9;	
+	display:block;
+	z-index:99;
+	}
+	
+.qplayer-progress-bar .on-off-btn{
+	position:absolute;
+	top:-.5rem;
+	top:-10px\9;
+	left:0;	
+	}	
+
+.qplayer-play-position{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-1.5rem;
+	margin-top:-2.5rem;
+	margin-left:-30px\9;
+	margin-top:-30px\9;	
+	}
+	
+.qplayer-play-load{	
+	background:#fff;
+	border-radius:50%;
+	box-shadow:0px 0px 5px 0px #595959;
+	text-align:center;
+	}
+	
+.qplayer-play-load-pic{
+	background:url(images/load.gif) center no-repeat;
+	width:2.5rem;
+	height:2.5rem;
+	width:50px\9;
+	height:50px\9;	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/load.gif', sizingMethod='scale')\9;
+    background-image:none\9; 	
+	background-size:2.5rem;
+	background-size:60px\9;
+	display:block;
+	padding:.5rem;
+	padding:10px\9;	
+	}
+
+.qpause-ico{
+	background:url(images/play-5.png) center no-repeat;
+	width:3.5rem;
+	height:3.5rem;
+	width:60px\9;
+	height:60px\9;
+	display:block;	
+	background-size:3.5rem;		
+	}
+
+	
+.qplayer-hid{
+	display:none;
+	}	
+	
+		
+

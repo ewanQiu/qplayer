@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./jquery.ui.js"></script>
+<link rel="stylesheet" href="./qplayer.css">
+<script src="./qplayer.js"></script>
+<body>
+<div id="player_container" style="width:800px"></div>
+</body>
+
+<script>
+  qPlayer.init($("#player_container"),{
+        "src":"./song.mp3",
+        'pic':"./images/play_start.png"
+    });
+</script>
