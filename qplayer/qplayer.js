@@ -1,3 +1,7 @@
+/**
+ * author:ewanQiu
+ * email:qiu2790@126.com
+ */
 var qPlayer = {
 	container:null,
 	audio: '',//当前Audio对象
